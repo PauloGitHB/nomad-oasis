@@ -39,7 +39,6 @@ plugins = [
   "nomad-parser-plugins-atomistic>=1.0",
   "nomad-parser-plugins-workflow>=1.0",
   "nomad-parser-plugins-database>=1.0",
-  "nomad-damask-parser",
   "nomad-plugin-sintering",
   "plugin-test",
 ]
@@ -54,7 +53,6 @@ constraint-dependencies = ["hyperspy>=1.7.6"]
 prerelease = "disallow"
 
 [tool.uv.sources]
-nomad-damask-parser = { git = "https://github.com/Guillaume-Gaisne/nomad-DAMASK_parser.git" }
 nomad-plugin-sintering = { git = "https://github.com/PauloGitHB/sintering_plugin.git" }
 plugin-test = { git = "https://github.com/PauloGitHB/plugin_test.git" }
 
