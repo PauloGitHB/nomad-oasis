@@ -4815,7 +4815,7 @@ wheels = [
 [[package]]
 name = "plugin-test"
 version = "0.1.0"
-source = { git = "https://github.com/PauloGitHB/plugin_test.git#8061c18a87044b92e353689c28d53fa4366bf73f" }
+source = { git = "https://github.com/PauloGitHB/plugin_test.git#bbdbd0991cf13eaf1dec404cf3c6e059f11ced66" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'" },
